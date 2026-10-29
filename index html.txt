@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بورتفليو مهندس البرمجيات</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- استيراد خط عربي جميل -->
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- الهيدر أو المقدمة -->
+    <header class="hero">
+        <div class="container">
+            <h1>مرحباً، أنا مهندس برمجيات 💻</h1>
+            <p>طالب هندسة برمجيات أتعلم وأطبق المفاهيم البرمجية من خلال مشاريع ومقررات دراسية.</p>
+            <div class="social-links">
+                <a href="https://github.4com" target="_blank">حسابي على GitHub</a>
+                <a href="mailto:your-email@example.com">تواصل معي</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- قسم المشاريع أو التاسكات الجامعية -->
+    <section class="projects">
+        <div class="container">
+            <h2>مشاريعي وتاسكات الجامعة</h2>
+            <div class="projects-grid">
+
+                <!-- المشروع الأول -->
+                <div class="project-card">
+                    <h3>اسم التاسك أو المشروع 1</h3>
+                    <p>وصف قصير لما يفعله هذا المشروع والتقنيات المستخدمة فيه (مثلاً: C++, Java, أو Python ومفاهيم OOP).</p>
+                    <a href="رابط_الـ_Repository_على_جيت_هاب" target="_blank" class="btn">عرض الكود على GitHub</a>
+                </div>
+
+                <!-- المشروع الثاني -->
+                <div class="project-card">
+                    <h3>اسم التاسك أو المشروع 2</h3>
+                    <p>وصف قصير للتاسك الثاني (مثلاً: مشروع هيكل بيانات Data Structures أو خوارزميات).</p>
+                    <a href="رابط_الـ_Repository_على_جيت_هاب" target="_blank" class="btn">عرض الكود على GitHub</a>
+                </div>
+
+                <!-- المشروع الثالث -->
+                <div class="project-card">
+                    <h3>اسم التاسك أو المشروع 3</h3>
+                    <p>وصف قصير للتاسك الثالث (مثلاً: نظام قواعد بيانات أو تطبيق بسيط).</p>
+                    <a href="رابط_الـ_Repository_على_جيت_هاب" target="_blank" class="btn">عرض الكود على GitHub</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- الفوتر -->
+    <footer>
+        <p>تم الإنشاء بواسطة مهندس برمجيات طموح &copy; 2026</p>
+    </footer>
+
+</body>
+</html>
