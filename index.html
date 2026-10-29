@@ -1,18 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>بورتفليو مهندس البرمجيات</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap" rel="stylesheet">
 </head>
-<body style="font-family:Arial; text-align:center;">
-  <h1>My Portfolio</h1>
+<body>
 
-  <h2>Assignment 2</h2>
-  <ul style="list-style:none; padding:0; line-height:2;">
-    <li><a href="task1/index.html">Task 1</a></li>
-    <li><a href="task2/table.html">Task 2</a></li>
-    <li><a href="task3/image-link.html">Task 3</a></li>
-  </ul>
+    <header class="hero">
+        <div class="container">
+            <h1>مرحباً، أنا مهندس برمجيات 💻</h1>
+            <p>طالب هندسة برمجيات أتعلم وأطبق المفاهيم البرمجية من خلال مشاريع ومقررات دراسية.</p>
+            <div class="social-links">
+                <a href="https://github.com/hm58m858n2-boop" target="_blank">حسابي على GitHub</a>
+                <a href="mailto:ronyyehab@icloud.com">تواصل معي</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="projects">
+        <div class="container">
+            <h2>مشاريعي وتاسكات الجامعة</h2>
+            <div class="projects-grid">
+
+                <div class="project-card">
+                    <h3>Assignment 2 - Task 1</h3>
+                    <p>صفحة HTML فيها عناوين وقوائم متداخلة، ولينك داخلي لقسم معين في صفحة تانية، ولينك خارجي بيفتح في تاب جديدة.</p>
+                    <a href="task1/index.html" class="btn">عرض التاسك</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Assignment 2 - Task 2</h3>
+                    <p>جدول HTML باستخدام colspan و rowspan مع تنسيق الألوان.</p>
+                    <a href="task2/table.html" class="btn">عرض التاسك</a>
+                </div>
+
+                <div class="project-card">
+                    <h3>Assignment 2 - Task 3</h3>
+                    <p>صورة بتشتغل كلينك لموقع تاني، مع إضافة favicon لتاب المتصفح.</p>
+                    <a href="task3/image-link.html" class="btn">عرض التاسك</a>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>تم الإنشاء بواسطة مهندس برمجيات طموح &copy; 2026</p>
+    </footer>
+
 </body>
 </html>
